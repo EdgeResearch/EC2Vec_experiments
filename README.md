@@ -18,6 +18,8 @@ The notebook is cleaned for presentation.
 ## 📁 Files
 
 - `research_results.ipynb` — main, presentation-ready notebook.
+-  Delivery folder contains scripts and data
+-  Plots folder contains images 
 
 > Bring your own dataset of subreddit texts (CSV/JSON). The notebook expects columns like `text` (content) and, for supervised tasks, a binary label such as `is_conspiracy` (0/1).
 
