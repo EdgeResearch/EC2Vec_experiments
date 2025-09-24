@@ -1,6 +1,6 @@
 # EC2Vec_experiments
 
-This project analyzes **Reddit subreddit content through emotion features** to (1) **discover clusters** of related discussions and (2) **classify** posts as **conspiratorial vs. non-conspiratorial** using **Logistic Regression (LR)** and a **Multi-Layer Perceptron (MLP)**.  
+This project analyzes **Reddit subreddit content through emotion features** to (1) **discover clusters** of related discussions and (2) **classify** subreddit as **conspiracy vs. non-conspiracy** using **Logistic Regression (LR)** and a **Multi-Layer Perceptron (MLP)**.  
 The notebook is cleaned for presentation.
 
 ---
@@ -17,8 +17,7 @@ The notebook is cleaned for presentation.
 
 ## 📁 Files
 
-- `clustering_clean_en.ipynb` — main, presentation-ready notebook.
-- `clustering_clean_en.py` — linear script export (optional).
+- `research_results.ipynb` — main, presentation-ready notebook.
 
 > Bring your own dataset of subreddit texts (CSV/JSON). The notebook expects columns like `text` (content) and, for supervised tasks, a binary label such as `is_conspiracy` (0/1).
 
