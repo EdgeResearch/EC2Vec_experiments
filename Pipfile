@@ -17,6 +17,9 @@ scikit-learn = "*"
 umap-learn = "*"
 statsmodels = "*"
 adjusttext = "*"
+spacy = "*"
+spacytextblob = "*"
+eng-spacysentiment = "*"
 
 [dev-packages]
 
